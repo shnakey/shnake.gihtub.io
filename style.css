@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Pacifico&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  background: #F7F1CF;
+  font-family: "Montserrat", sans-serif;
+}
+.navMenu {
+  position: absolute;
+  top: 5%;
+  left: 70%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.navMenu a {
+  color: #FFA745;
+  text-decoration: none;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 140px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+.navMenu a:hover {
+  color: #91AE92;
+}
+
+.header {
+    background-color: #301411;
+    height: 85px;
+}
+
+.header h1 {
+    color: #FFA745;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    position: absolute;
+    left: 5%;
+    top: 3%
+}
+
+.quote {
+    width:810px;
+    height:220px;
+    background: #91AE92;
+    text-align: center;
+    position: absolute;
+    top: 154px;
+    left: 30%;
+    border-radius: 50px;
+    font-family: Pacifico;
+    font-size: 32px;
+    color: #826049;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #FFA745;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 48px;
+
+}
+
+.aboutme {
+  position: absolute;
+  top: 45%;
+}
+
+.aboutme img{
+  width: 468px;
+  height: 601px;
+  border-radius: 45px;
+  padding: 60px;
+}
+
+.aboutme p {
+  color: black;
+  margin-right: 50px;
+  font-size: 18px;
+  width: 100%;
+  font-family: "Cormorant Garamond", sans-serif;
+  color: #52493F;
+  font-size: 32px;
+}
+
+table {
+  justify-content: center;
+}
+
+
+.cats h1 {
+  text-align: center;
+  color: #FFA745;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 48px;
+
+}
+
+#melnite {
+  width: 440px;
+  border-radius: 100%;
+}
+
+#perlite {
+  width: 440px;
+  border-radius: 100%;
+}
+
+.cats p {
+  color: black;
+  margin-right: 50px;
+  font-size: 18px;
+  width: 100%;
+  font-family: "Cormorant Garamond", sans-serif;
+  color: #52493F;
+  font-size: 32px;
+}
